@@ -383,6 +383,7 @@
                     </view>
                     <connections>
                         <outlet property="correctWordLabel" destination="Wel-yH-Bbr" id="K3E-IV-aNc"/>
+                        <outlet property="scoreLabel" destination="Wel-yH-Bbr" id="1mC-aR-O79"/>
                         <outlet property="treeImageView" destination="sLl-UC-IYp" id="Dcf-N1-4c0"/>
                         <outletCollection property="letterButtons" destination="PoP-vg-T83" collectionClass="NSMutableArray" id="Hy3-SY-NGe"/>
                         <outletCollection property="letterButtons" destination="Obw-zT-5BD" collectionClass="NSMutableArray" id="KbQ-3w-qNd"/>
