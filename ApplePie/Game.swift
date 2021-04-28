@@ -22,11 +22,8 @@ struct Game{
     var formattedWord: String {
         var gueeseedWord = ""
         for letter in word {
-            if guessesLetters.contains(letter) {
-                gueeseedWord += "\(letter)"
-            } else {
-                gueeseedWord += "_"
-            }
+            gueeseedWord += guessesLetters.contains(letter) ? "\(letter)" : "_"
+            
         }
         return gueeseedWord
     }
