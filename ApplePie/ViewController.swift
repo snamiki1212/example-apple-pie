@@ -16,6 +16,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var letterButtons: [UIButton]!
     
+    @IBAction func letterButtonPressed(_ sender: UIButton) {
+    }
+    
     @IBOutlet var treeImageView: UIImageView!
     
     @IBOutlet var correctWordLabel: UILabel!
