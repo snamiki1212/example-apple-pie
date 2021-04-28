@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet var letterButtons: [UIButton]!
+    
+    @IBOutlet var treeImageView: UIImageView!
+    
+    @IBOutlet var correctWordLabel: UILabel!
 }
 
