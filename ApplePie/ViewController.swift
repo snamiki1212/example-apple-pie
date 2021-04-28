@@ -8,12 +8,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        newRound()
     }
-
+    
+    var listOfWords = [
+        "buccaneer",
+        "swift",
+        "glorious",
+        "incandescent",
+        "bug",
+        "program"
+    ]
+    let incorrectMovesAllowed = 7
+    var totalWins = 0
+    var totalLosses = 0
+    
+    func newRound(){
+        // 
+    }
+    
     @IBOutlet var letterButtons: [UIButton]!
     
     @IBAction func letterButtonPressed(_ sender: UIButton) {
